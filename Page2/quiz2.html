@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/Page2/style.css" rel="stylesheet" type="text/css" />
+  <title>Question 2</title>
+</head>
+<body>
+  <script src="/Page2/script.js"></script>
+  <div id="container">
+    <h1>Copy the sentence in orange correctly</h1>
+    <p>NOTE: This is not case sensitive. Hitting enter on your keyboard will reset your selection.</p>
+    <p id="sentence">Wrong answers only</p>
+    <form id="form">
+      <input type="text" id="copy-sentence">
+      <button type="button" id="submit" onclick="checkSentence()">Submit Answer</button>
+     </form>
+  </div>
+
+  <div id="previous-question">
+       <button>
+         <a href="/Page1/quiz1.html">Previous Question</a>
+       </button>
+    </div>
+
+    <div id="footer">
+      <label for="quiz-length">Quiz Progress:</label>
+      <progress class="quiz-length" value="20" max="100"></progress>
+    </div>
+
+</body>
+</html>

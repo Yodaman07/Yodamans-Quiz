@@ -1,0 +1,67 @@
+html{
+    background: lavender;
+  }
+
+
+#form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 30px;
+    border-color: black;
+    border: thick;
+    border-style: solid;
+    padding: 20px;
+    background-color: mediumpurple;
+}
+
+#img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+#img-container img{
+  border-style: solid;
+  border-color: mediumpurple;
+  border-width: 6px;
+}
+
+#img-container a {
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+}
+
+#img{
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+}
+
+#footer{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 20px;
+}
+
+
+#previous-question{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  padding: 20px;
+}

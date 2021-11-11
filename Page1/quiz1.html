@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Question 1</title>
+    <link href="/Page1/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="/Page1/script.js"></script>
+    <div id="form">
+      <h1 id="Title">Choose a fruit</h1>
+      <form>
+        <select name="fruit" id="fruits">
+          <option value="ID-001">Banana</option>
+          <option value="ID-002">Grapes</option>
+          <option value="ID-003">Apples</option>
+          <option value="ID-004">Blueberries</option>
+          <option value="ID-005">Peach</option>
+          <option value="ID-006">Cherimoya</option>
+          <option value="ID-007">Pineapple</option>
+          <option value="ID-008">Watermelon</option>
+        </select>
+        <button type="button" id="submit" onclick="getDataDropdown()">Submit Answer</button>
+      </form>
+    </div>
+    <div id="img-container">
+    </div>
+    
+    <div id="previous-question">
+       <button>
+         <a href="/index.html">Previous Question</a>
+       </button>
+    </div>
+
+    <div id="footer">
+      <label for="quiz-length">Quiz Progress:</label>
+      <progress class="quiz-length" value="10" max="100"></progress>
+    </div>
+    
+  </body>
+</html>
